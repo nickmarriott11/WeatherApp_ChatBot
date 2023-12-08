@@ -39,7 +39,7 @@ This project is a web application that provides weather information and a chatbo
 - **ForecastData**: Stores 5-day forecast data.
 
 ## WeatherBot Training
-The chatbot is trained with both user-generated questions and statements and ChatterBot corpus data related to weather and general topics.
+The chatbot is trained with both user-generated questions and statements as well as a database populated with weather data fetched from the API and ChatterBot corpus data related to general topics for smalltalk purposes.
 
 ## Acknowledgments
 - OpenWeatherMap for providing weather data.
