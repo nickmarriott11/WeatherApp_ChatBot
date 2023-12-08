@@ -67,6 +67,7 @@
 
   <button id="open-chat-btn" onclick="toggleChat()">Open Chat</button>
 
+  <!-- Chatbot popup -->
   <div id="chat-popup">
     <div id="chat-header">Weather Chatbot</div>
     <div id="chat-container"></div>
@@ -75,11 +76,13 @@
   </div>
 
   <script>
+    // Function to toggle the chatbot popup
     function toggleChat() {
       var chatPopup = document.getElementById('chat-popup');
       chatPopup.style.display = (chatPopup.style.display === 'none' || chatPopup.style.display === '') ? 'block' : 'none';
     }
 
+    // Function to send a message to the chatbot
     function sendMessage() {
       var userInput = document.getElementById('user-input').value;
       if (userInput.trim() === "") return; // Check if the input is empty
