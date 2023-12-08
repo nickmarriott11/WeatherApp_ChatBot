@@ -5,3 +5,4 @@ api_key.txt
 /sentence_tokenizer.pickle
 /weather_database.db-shm
 /weather_database.db-wal
+/venv/
