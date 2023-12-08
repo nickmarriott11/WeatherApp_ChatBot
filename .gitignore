@@ -1,2 +1,7 @@
 
 api_key.txt
+/weather_database.db
+/db.sqlite3
+/sentence_tokenizer.pickle
+/weather_database.db-shm
+/weather_database.db-wal
