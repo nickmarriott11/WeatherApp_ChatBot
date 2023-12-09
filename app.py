@@ -396,6 +396,7 @@ def index():
                            location_name=location_name)
 
 
+# Route to get chatbot response
 @app.route('/get_response', methods=['POST'])
 def get_response():
     user_input = request.json['user_input']
