@@ -6,3 +6,5 @@ api_key.txt
 /weather_database.db-shm
 /weather_database.db-wal
 /venv/
+/db.sqlite3-shm
+/db.sqlite3-wal
